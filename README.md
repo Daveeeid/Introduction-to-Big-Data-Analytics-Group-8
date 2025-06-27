@@ -56,7 +56,9 @@ main()
 
 # Question II
 
- def check_palindrome():
+ def is_palindrome(text):
+ return text== text[::-1]
+ def main():
     user_input = input("\nEnter a string to check if it's a palindrome: ")
     if is_palindrome(user_input):
         print("Yes, it is a palindrome")
@@ -64,6 +66,6 @@ main()
         print("No, it is not a palindrome")
 
 
-check_palindrome()
+main()
 
 ![IMG-20250627-WA0012](https://github.com/user-attachments/assets/bb5eba08-2b48-414b-aa69-b3b09d3e9a1a)
