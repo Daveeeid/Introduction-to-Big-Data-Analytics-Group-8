@@ -34,21 +34,21 @@ def calculate_average(grades):
     return sum(grades) / len(grades)
 
 # Function to display student information
-def display_student_info(name, age, grades, average):
-    print("\n--- Student Report ---")
-    print(f"Name: {name}")
-    print(f"Age: {age}")
-    print(f"Grades: {grades}")
-    print(f"Average Grade: {average:.2f}")
+def display_student_info(name, age, grades, average):  
+    print("\n--- Student Report ---")  
+    print(f"Name: {name}")  
+    print(f"Age: {age}")  
+    print(f"Grades: {grades}")  
+    print(f"Average Grade: {average:.2f}")  
 
 
-def main():
-    name, age, grades = input_student_info()
-    average = calculate_average(grades)
-    display_student_info(name, age, grades, average)
+def main():  
+    name, age, grades = input_student_info()  
+    average = calculate_average(grades)  
+    display_student_info(name, age, grades, average)  
 
 
-main()
+main()  
 
 
 ![IMG-20250627-WA0011](https://github.com/user-attachments/assets/debbe5ad-250c-4f32-a753-7d7032417b46)
