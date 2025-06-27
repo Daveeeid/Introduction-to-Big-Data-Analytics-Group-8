@@ -17,7 +17,7 @@
 # Question I
 
 # Function to input student information
-def input_student_info():  
+def input_student_info():   
     name = input("Enter student's name: ")  
     age = int(input("Enter student's age: "))  
     grades = []  
