@@ -54,16 +54,16 @@ main()
 ![IMG-20250627-WA0011](https://github.com/user-attachments/assets/debbe5ad-250c-4f32-a753-7d7032417b46)
 
 
-# Question II
+# Question II  
 
- def is_palindrome(text):
- return text== text[::-1]
- def main():
-    user_input = input("\nEnter a string to check if it's a palindrome: ")
-    if is_palindrome(user_input):
-        print("Yes, it is a palindrome")
+ def is_palindrome(text):  
+ return text== text[::-1]  
+ def main():  
+    user_input = input("\nEnter a string to check if it's a palindrome: ")  
+    if is_palindrome(user_input):  
+        print("Yes, it is a palindrome")  
     else:
-        print("No, it is not a palindrome")
+        print("No, it is not a palindrome")  
 
 
 main()
