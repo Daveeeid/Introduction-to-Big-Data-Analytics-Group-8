@@ -16,7 +16,6 @@
 
 # Question I
 
-
 # Function to input student information
 def input_student_info():
     name = input("Enter student's name: ")
@@ -50,3 +49,21 @@ def main():
 
 
 main()
+
+
+![IMG-20250627-WA0011](https://github.com/user-attachments/assets/debbe5ad-250c-4f32-a753-7d7032417b46)
+
+
+# Question II
+
+def check_palindrome():
+    user_input = input("\nEnter a string to check if it's a palindrome: ")
+    if is_palindrome(user_input):
+        print("Yes, it is a palindrome")
+    else:
+        print("No, it is not a palindrome")
+
+
+check_palindrome()
+
+![IMG-20250627-WA0012](https://github.com/user-attachments/assets/bb5eba08-2b48-414b-aa69-b3b09d3e9a1a)
