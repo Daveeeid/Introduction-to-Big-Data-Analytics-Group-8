@@ -17,17 +17,17 @@
 # Question I
 
 # Function to input student information
-def input_student_info():
-    name = input("Enter student's name: ")
-    age = int(input("Enter student's age: "))
-    grades = []
+def input_student_info():  
+    name = input("Enter student's name: ")  
+    age = int(input("Enter student's age: "))  
+    grades = []  
     
-    number_of_courses = int(input("Enter number of courses (2 or 3): "))
-    for i in range(number_of_courses):
-        grade = float(input(f"Enter grade for course {i + 1}: "))
-        grades.append(grade)
+    number_of_courses = int(input("Enter number of courses (2 or 3): "))  
+    for i in range(number_of_courses):  
+        grade = float(input(f"Enter grade for course {i + 1}: "))  
+        grades.append(grade)  
     
-    return name, age, grades
+    return name, age, grades  
 
 # Function to calculate average
 def calculate_average(grades):
